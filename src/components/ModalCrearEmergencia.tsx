@@ -6,6 +6,7 @@ interface ModalProps {
   onClose: () => void;
 }
 
+
 export default function ModalCrearEmergencia({ isOpen, onClose }: ModalProps) {
   const [estaEnLugar, setEstaEnLugar] = useState<boolean>(true);
 
